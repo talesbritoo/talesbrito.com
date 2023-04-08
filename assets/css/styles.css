@@ -25,6 +25,7 @@ body {
 }
 .logo {
     background-color: #ffffff;
+    box-shadow: 0 0 10px #fcfcfc;
 }
 @media (max-width: 360px) {
     .logo {
@@ -39,15 +40,18 @@ body {
 }
 .block1 {
     background-color: #ffffff;
+    box-shadow: 0 0 10px #9b9b9b, inset 0 0 10px #000000;
+    font-family: 'Bangers', cursive;
 }
 @media (max-width: 360px) {
     .block1 {
         width: 84%;
-        height: 700px;
+        height: 600px;
         border-radius: 14px;
-        margin-top: 20px;
-        margin-left: 8%;
-        text-align: center;
+    }
+}
+@media (max-width: 360px) {
+    .block1 div div h2 {
     }
 }
 @media (max-width: 360px) {
@@ -146,7 +150,6 @@ body {
 @media (max-width: 375px) {
     .block1 {
         width: 84%;
-        height: 700px;
         border-radius: 14px;
         margin-top: 20px;
         margin-left: 8%;

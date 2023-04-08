@@ -1,21 +1,21 @@
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .container {
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .welcome {
         color: #ffffff;
         text-align: center;
         font-size: 25px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .welcome img {
         width: 75%;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .logo {
         background-color: rgb(255, 255, 255);
         width: 100%;
@@ -24,14 +24,14 @@
         align-items: center;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .logo h2, img {
         color: aqua;
         margin-left: 5px;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .block1 {
         background-color: aqua;
         width: 84%;
@@ -42,11 +42,11 @@
         text-align: center;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .block1 h2 {
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .block1 a {
         background-color: #000000;
         text-decoration: none;
@@ -57,7 +57,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .block2 {
         color: aliceblue;
         max-width: 310px;
@@ -67,7 +67,7 @@
         padding: 5px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .item {
         margin: 10px;
         padding: 5px;
@@ -81,12 +81,12 @@
     text-align: center;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     #share {
         text-align: center;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     #share button {
         padding: 15px 30px;
         font-size: 18px;

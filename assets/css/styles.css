@@ -11,6 +11,8 @@ body {
     font-family: 'Bangers', cursive;
     color: #ffffff;
 }
+
+/* 360px */
 @media (max-width: 360px) {
     .welcome {
         text-align: center;
@@ -89,6 +91,7 @@ body {
     text-align: center;
 }
 
+/* btnshare */
 @media (max-width: 360px) {
     #share {
         text-align: center;
@@ -105,8 +108,44 @@ body {
         background: #1e1e1e;
         color: rgb(255, 255, 255);
         box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+        margin: 20px 0 20px 0;
     }
 }
+
+/* form */
+@media (max-width: 360px) {
+    .form {
+        background-color: aqua;
+        width: 80%;
+        height: 150px;
+        margin: 0 auto 0 auto;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 360px) {
+    .form1 {
+       position: relative;
+       top: 50%;
+       transform: translateY(-50%);
+    }
+}
+@media (max-width: 360px) {
+    .inputtext {
+        margin: 15px;
+        color: #ffffff;
+    }
+}
+@media (max-width: 360px) {
+    .inputphone {
+        margin: 15px;
+    }
+}
+@media (max-width: 360px) {
+
+}
+
+/* footer */
 @media (max-width: 360px) {
     #createdby {
         color: #ffffff;

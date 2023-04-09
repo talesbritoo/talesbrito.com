@@ -67,28 +67,37 @@ body {
     }
 }
 
+/* contactblock */
 @media (max-width: 360px) {
-    .block2 {
-        color: aliceblue;
-        max-width: 310px;
-        margin: 20px auto;
+    .contactblock {
         border: 2px solid aqua;
-        border-radius: 14px;
-        padding: 5px;
+        border-radius: 15px;
+        width: 90%;
+        height: 250px;
+        margin: 30px auto 30px auto;
     }
 }
 @media (max-width: 360px) {
-    .item {
-        margin: 10px;
-        padding: 5px;
-        background-color: aqua;
+    .contactblock div {
+        color: #ffffff;
         text-align: center;
-        font-size: 1em;
+    }
+}
+@media (max-width: 360px) {
+    .btncontact {
+        list-style: none;
+    }
+}
+@media (max-width: 360px) {
+    .btncontact li {
+        background-color: aqua;
+    }
+}
+@media (max-width: 360px) {
+    .btncontact a {
+        text-decoration: none;
         color: #000000;
     }
-}
-#item {
-    text-align: center;
 }
 
 /* btnshare */
@@ -108,7 +117,6 @@ body {
         background: #1e1e1e;
         color: rgb(255, 255, 255);
         box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
-        margin: 20px 0 20px 0;
     }
 }
 

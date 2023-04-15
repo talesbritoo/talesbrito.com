@@ -20,7 +20,7 @@ body {
         margin: 50px 0 50px 0;
     }
     .welcome::first-letter {
-        color: aqua;
+        color: rgb(255, 165, 0);
         font-size: 80px;
     }
 }
@@ -29,14 +29,12 @@ body {
         width: 75%;
     }
 }
-.logo {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px #fcfcfc;
-}
 @media (max-width: 360px) {
     .logo {
+        background-color: rgb(255, 165, 0);
         width: 100%;
         height: 50px;
+        position: fixed;
     }
 }
 @media (max-width: 360px) {
@@ -45,7 +43,7 @@ body {
     }
 }
 .block1 {
-    background-color: #ffffff;
+    background-color: rgb(255, 165, 0);
     box-shadow: 0 0 10px #9b9b9b, inset 0 0 10px #000000;
     font-family: 'Bangers', cursive;
 }

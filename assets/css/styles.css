@@ -50,6 +50,7 @@ body {
         background-color: rgb(255, 165, 0);
         box-shadow: 0 0 10px #9b9b9b, inset 0 0 10px #000000;
         font-family: 'Bangers', cursive;
+        text-align: center;
     }
 }
 @media (max-width: 360px) {
@@ -61,16 +62,26 @@ body {
     }
 }
 @media (max-width: 360px) {
-    .block1 a {
+    .block1 h2 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 360px) {
+    .block1 button {
         background-color: #000000;
-        text-decoration: none;
-        color: #ffffff;
         font-size: large;
         border-radius: 8px;
+        border: none;
         padding: 8px;
     }
 }
-
+@media (max-width: 360px) {
+    .block1 a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Bangers', cursive;
+    }
+}
 /* contact block */
 @media (max-width: 360px) {
     .contactblock {
